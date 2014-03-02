@@ -21,6 +21,7 @@
 		83D75FC118C3942300B93C1F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83D75FA318C3942200B93C1F /* UIKit.framework */; };
 		83D75FC918C3942300B93C1F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 83D75FC718C3942300B93C1F /* InfoPlist.strings */; };
 		83D75FCB18C3942300B93C1F /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D75FCA18C3942300B93C1F /* Git_TestTests.m */; };
+		83D75FD618C39BF700B93C1F /* CBTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D75FD518C39BF700B93C1F /* CBTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		83D75FC618C3942300B93C1F /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		83D75FC818C3942300B93C1F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		83D75FCA18C3942300B93C1F /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		83D75FD418C39BF700B93C1F /* CBTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBTest.h; sourceTree = "<group>"; };
+		83D75FD518C39BF700B93C1F /* CBTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +119,8 @@
 				83D75FAF18C3942300B93C1F /* CBAppDelegate.m */,
 				83D75FB118C3942300B93C1F /* Main.storyboard */,
 				83D75FB418C3942300B93C1F /* CBViewController.h */,
+				83D75FD418C39BF700B93C1F /* CBTest.h */,
+				83D75FD518C39BF700B93C1F /* CBTest.m */,
 				83D75FB518C3942300B93C1F /* CBViewController.m */,
 				83D75FB718C3942300B93C1F /* Images.xcassets */,
 				83D75FA618C3942200B93C1F /* Supporting Files */,
@@ -250,6 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83D75FD618C39BF700B93C1F /* CBTest.m in Sources */,
 				83D75FAC18C3942200B93C1F /* main.m in Sources */,
 				83D75FB018C3942300B93C1F /* CBAppDelegate.m in Sources */,
 				83D75FB618C3942300B93C1F /* CBViewController.m in Sources */,
@@ -461,6 +467,7 @@
 				83D75FD018C3942300B93C1F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		83D75FD118C3942300B93C1F /* Build configuration list for PBXNativeTarget "Git TestTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +476,7 @@
 				83D75FD318C3942300B93C1F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
